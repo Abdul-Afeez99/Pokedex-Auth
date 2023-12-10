@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #848484;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  /* align-self: center; */
+  /* justify-self: center; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#fff;
+}
+
+
+.list-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 40px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 8px;
+}
+
+.details h2 {
+  color: #fff;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.details div {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.details ul {
+  list-style: none;
+  font-style: italic;
+  padding: 0;
+  color: #000;
+}
+
+.details li {
+  margin-bottom: 4px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #000;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
